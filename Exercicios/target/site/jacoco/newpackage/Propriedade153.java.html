@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Propriedade153.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Exercicios</a> &gt; <a href="index.source.html" class="el_package">newpackage</a> &gt; <span class="el_source">Propriedade153.java</span></div><h1>Propriedade153.java</h1><pre class="source lang-java linenums">package newpackage;
+import java.util.Scanner;
+/**
+ * @author Hyago Vieira de Souza
+ * @version 1.0
+ * @since Relase 01 da aplicação
+ */
+<span class="nc" id="L8">public class Propriedade153 {</span>
+
+    /**Metodo para ler valor(es) e verificar se o número possui a
+     * &quot;propriedade 153&quot;.
+     * @author Hyago Vieira de Souza
+     * @since Relase 01 da aplicação
+     * @param args String
+     */
+    public static void main(String[] args) {
+<span class="nc" id="L17">        int n = confereValores(&quot;Entre com o número:&quot;);</span>
+        
+<span class="nc bnc" id="L19" title="All 2 branches missed.">        if (propriedade(n)) {</span>
+<span class="nc" id="L20">            System.out.println(&quot;Verdadeiro para &quot; + n + &quot;.&quot;);</span>
+        } else {
+<span class="nc" id="L22">            System.out.println(&quot;Falso para &quot; + n + &quot;.&quot;);</span>
+        }
+        
+<span class="nc" id="L25">    }</span>
+    
+    /**Metodo para conferir se o valor de entrada dado pelo usuário é aceito.
+     * @author Hyago Vieira de Souza
+     * @since Relase 01 da aplicação
+     * @param frase String - frase lida pelo usuário
+     * @return int - resultado
+     */
+    public static int confereValores(String frase) {
+<span class="nc" id="L34">        System.out.println(frase);</span>
+<span class="nc" id="L35">        Scanner ler = new Scanner(System.in);</span>
+<span class="nc" id="L36">        int resultado = ler.nextInt();</span>
+<span class="nc bnc" id="L37" title="All 4 branches missed.">        if (resultado &lt; 0 || resultado &gt; 9999) {</span>
+<span class="nc" id="L38">            System.out.println(&quot;Digite um valor que seja maior ou igual a 0 e&quot;</span>
+                    + &quot; menor ou igual a 9999.&quot;);
+<span class="nc" id="L40">            return confereValores(frase);</span>
+        } else {
+<span class="nc" id="L42">        return resultado;</span>
+        }
+    }
+    
+    /**Metodo para verificar se o número recebido tem a &quot;propriedade 153&quot;
+     * @author Hyago Vieira de Souza
+     * @since Relase 01 da aplicação
+     * @param n int
+     * @return boolean
+     */
+    public static boolean propriedade(int n) {
+<span class="fc" id="L53">        int i = n / 100;</span>
+<span class="fc" id="L54">        int j = (n - (100 * i)) / 10;</span>
+<span class="fc" id="L55">        int k = n % 10;</span>
+<span class="fc bfc" id="L56" title="All 2 branches covered.">        return ((Math.pow(i,3)) + (Math.pow(j,3)) + (Math.pow(k,3))) == n;</span>
+    }
+    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>

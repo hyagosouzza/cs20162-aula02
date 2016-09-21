@@ -1,0 +1,10 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Exercicios,newpackage,NumeroHarmonico,45,22,2,2,12,6,4,2,3,1
+Exercicios,newpackage,Propriedade3025,59,22,6,2,13,3,6,2,3,1
+Exercicios,newpackage,SomaNaturais,30,15,0,2,7,5,2,2,2,1
+Exercicios,newpackage,CrivoEratostenes,86,0,10,0,19,0,8,0,3,0
+Exercicios,newpackage,Primo,57,27,4,8,13,9,5,5,3,1
+Exercicios,newpackage,MaiorDivisorComum,53,13,2,2,12,6,3,2,2,1
+Exercicios,newpackage,ProdutoIntSoma,36,29,2,4,12,11,4,3,3,1
+Exercicios,newpackage,Propriedade153,59,38,6,2,13,4,6,2,3,1
+Exercicios,newpackage,PotenciaSoma,36,18,2,2,12,6,4,2,3,1

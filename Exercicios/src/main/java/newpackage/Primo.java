@@ -49,11 +49,15 @@ public class Primo {
     public static boolean primo(int n) {
         int i = 2;
         int j = 0;
-        while (i <= (n - 1)) {
-            if (n % i == 0) {
-                j++;
+        if(n == 1){
+            return false;
+        } else {
+            while (i <= (n - 1)) {
+                if (n % i == 0) {
+                    j++;
+                }
+                i++;
             }
-            i++;
         }
         return j == 0;
     }

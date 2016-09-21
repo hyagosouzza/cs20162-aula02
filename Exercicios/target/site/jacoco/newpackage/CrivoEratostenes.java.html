@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CrivoEratostenes.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Exercicios</a> &gt; <a href="index.source.html" class="el_package">newpackage</a> &gt; <span class="el_source">CrivoEratostenes.java</span></div><h1>CrivoEratostenes.java</h1><pre class="source lang-java linenums">package newpackage;
+import java.util.Scanner;
+/**
+ * @author Hyago Vieira de Souza
+ * @version 1.0
+ * @since Relase 01 da aplicação
+ */
+<span class="nc" id="L8">public class CrivoEratostenes {</span>
+
+    /**Metodo para ler valor(es) e verificar os números primos até um certo 
+     * valor limite.
+     * @author Hyago Vieira de Souza
+     * @since Relase 01 da aplicação
+     * @param args String
+     */
+    public static void main(String[] args) {
+        int i, j, raiz;
+<span class="nc" id="L18">        int vetor[] = new int[1000000];</span>
+        
+<span class="nc" id="L20">        int n = confereValores(&quot;Digite o valor limite:&quot;);</span>
+        
+<span class="nc" id="L22">        raiz = (int)Math.sqrt(n);</span>
+        
+<span class="nc bnc" id="L24" title="All 2 branches missed.">        for (i = 2; i &lt;= n; i++) {</span>
+<span class="nc" id="L25">            vetor[i] = i;</span>
+        }
+        
+<span class="nc bnc" id="L28" title="All 2 branches missed.">        for (i = 2; i &lt;= raiz; i++) {</span>
+<span class="nc bnc" id="L29" title="All 2 branches missed.">            if (vetor[i] == i) {</span>
+<span class="nc" id="L30">                System.out.println(i + &quot; é primo!&quot;);</span>
+<span class="nc bnc" id="L31" title="All 2 branches missed.">                for (j = i + i; j &lt;= n; j+=i) {</span>
+<span class="nc" id="L32">                    vetor[j] = 0;</span>
+                }
+            }
+        }
+<span class="nc" id="L36">    }</span>
+    
+    /**Metodo para conferir se o valor de entrada dado pelo usuário é aceito.
+     * @author Hyago Vieira de Souza
+     * @since Relase 01 da aplicação
+     * @param frase String - frase lida pelo usuário
+     * @return int - resultado
+     */
+    public static int confereValores(String frase) {
+<span class="nc" id="L45">        System.out.println(frase);</span>
+<span class="nc" id="L46">        Scanner ler = new Scanner(System.in);</span>
+<span class="nc" id="L47">        int resultado = ler.nextInt();</span>
+<span class="nc bnc" id="L48" title="All 2 branches missed.">        if (resultado &lt; 2 ) {</span>
+<span class="nc" id="L49">            System.out.println(&quot;Digite um valor que seja maior que 1.&quot;);</span>
+<span class="nc" id="L50">            return confereValores(frase);</span>
+        } else {
+<span class="nc" id="L52">        return resultado;</span>
+        }
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>
