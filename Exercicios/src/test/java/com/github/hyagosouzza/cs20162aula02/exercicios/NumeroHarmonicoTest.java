@@ -1,7 +1,11 @@
 package com.github.hyagosouzza.cs20162aula02.exercicios;
+
 import org.junit.Test;
+
 import static org.junit.Assert.*;
+
 public class NumeroHarmonicoTest {
+    
     @Test
     public void testNumHarmonico() {
         int n = 1;
@@ -10,6 +14,7 @@ public class NumeroHarmonicoTest {
         float result = instance.numHarmonico(n);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testNumHarmonico2() {
         int n = 2;
@@ -18,6 +23,7 @@ public class NumeroHarmonicoTest {
         float result = instance.numHarmonico(n);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testNumHarmonico3() {
         int n = 3;
@@ -26,6 +32,7 @@ public class NumeroHarmonicoTest {
         float result = instance.numHarmonico(n);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testNumHarmonico4() {
         int n = 5;
@@ -34,6 +41,7 @@ public class NumeroHarmonicoTest {
         float result = instance.numHarmonico(n);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testNumHarmonico5() {
         int n = 7;
@@ -42,6 +50,7 @@ public class NumeroHarmonicoTest {
         float result = instance.numHarmonico(n);
         assertEquals(expResult, result, 0.0);
     }
+    
     @Test
     public void testNumHarmonico6() {
         int n = 10;
