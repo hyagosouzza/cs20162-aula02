@@ -1,7 +1,11 @@
 package com.github.hyagosouzza.cs20162aula02.exercicios;
+
 import org.junit.Test;
+
 import static org.junit.Assert.*;
+
 public class MaiorDivisorComumTest {
+    
     @Test
     public void testMaiorDivisorComum() {
         int a = 1;
@@ -11,6 +15,7 @@ public class MaiorDivisorComumTest {
         int result = instance.maiorDivisorComum(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testMaiorDivisorComum2() {
         int a = 2;
@@ -20,6 +25,7 @@ public class MaiorDivisorComumTest {
         int result = instance.maiorDivisorComum(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testMaiorDivisorComum3() {
         int a = 0;
@@ -29,6 +35,7 @@ public class MaiorDivisorComumTest {
         int result = instance.maiorDivisorComum(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testMaiorDivisorComum4() {
         int a = 7;
@@ -38,6 +45,7 @@ public class MaiorDivisorComumTest {
         int result = instance.maiorDivisorComum(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testMaiorDivisorComum5() {
         int a = 10;
@@ -47,6 +55,7 @@ public class MaiorDivisorComumTest {
         int result = instance.maiorDivisorComum(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testMaiorDivisorComum6() {
         int a = 16;
@@ -56,6 +65,7 @@ public class MaiorDivisorComumTest {
         int result = instance.maiorDivisorComum(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testMaiorDivisorComum7() {
         int a = 27;
