@@ -1,7 +1,11 @@
 package com.github.hyagosouzza.cs20162aula02.exercicios;
+
 import org.junit.Test;
+
 import static org.junit.Assert.*;
+
 public class PotenciaSomaTest {
+    
     @Test
     public void testPotenciaSoma() {
         int x = 0;
@@ -11,6 +15,7 @@ public class PotenciaSomaTest {
         int result = instance.potenciaSoma(x, y);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testPotenciaSoma2() {
         int x = 1;
@@ -20,6 +25,7 @@ public class PotenciaSomaTest {
         int result = instance.potenciaSoma(x, y);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testPotenciaSoma3() {
         int x = 5;
@@ -29,6 +35,7 @@ public class PotenciaSomaTest {
         int result = instance.potenciaSoma(x, y);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testPotenciaSoma4() {
         int x = 7;
@@ -38,6 +45,7 @@ public class PotenciaSomaTest {
         int result = instance.potenciaSoma(x, y);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testPotenciaSoma5() {
         int x = 10;
@@ -47,6 +55,7 @@ public class PotenciaSomaTest {
         int result = instance.potenciaSoma(x, y);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testPotenciaSoma6() {
         int x = 3;
@@ -56,6 +65,7 @@ public class PotenciaSomaTest {
         int result = instance.potenciaSoma(x, y);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testPotenciaSoma7() {
         int x = 5;
