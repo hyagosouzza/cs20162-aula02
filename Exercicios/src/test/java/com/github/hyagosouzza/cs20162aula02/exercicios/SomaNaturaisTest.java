@@ -1,7 +1,11 @@
 package com.github.hyagosouzza.cs20162aula02.exercicios;
+
 import org.junit.Test;
+
 import static org.junit.Assert.*;
+
 public class SomaNaturaisTest {
+    
     @Test
     public void testSoma() {
         int n = 1;
@@ -10,6 +14,7 @@ public class SomaNaturaisTest {
         int result = instance.soma(n);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testSoma2() {
         int n = 2;
@@ -18,6 +23,7 @@ public class SomaNaturaisTest {
         int result = instance.soma(n);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testSoma3() {
         int n = 3;
@@ -26,6 +32,7 @@ public class SomaNaturaisTest {
         int result = instance.soma(n);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testSoma4() {
         int n = 4;
@@ -34,6 +41,7 @@ public class SomaNaturaisTest {
         int result = instance.soma(n);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testSoma5() {
         int n = 5;
@@ -42,6 +50,7 @@ public class SomaNaturaisTest {
         int result = instance.soma(n);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testSoma6() {
         int n = 6;
@@ -50,6 +59,7 @@ public class SomaNaturaisTest {
         int result = instance.soma(n);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testSoma7() {
         int n = 7;
