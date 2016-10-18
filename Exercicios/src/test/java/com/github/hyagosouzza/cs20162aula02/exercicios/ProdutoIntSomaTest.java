@@ -1,7 +1,11 @@
 package com.github.hyagosouzza.cs20162aula02.exercicios;
+
 import org.junit.Test;
+
 import static org.junit.Assert.*;
+
 public class ProdutoIntSomaTest {
+    
     @Test
     public void testProdutoIntSomando() {
         int a = 0;
@@ -11,6 +15,7 @@ public class ProdutoIntSomaTest {
         int result = instance.produtoIntSomando(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testProdutoIntSomando2() {
         int a = 1;
@@ -20,6 +25,7 @@ public class ProdutoIntSomaTest {
         int result = instance.produtoIntSomando(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testProdutoIntSomando3() {
         int a = 7;
@@ -29,6 +35,7 @@ public class ProdutoIntSomaTest {
         int result = instance.produtoIntSomando(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testProdutoIntSomando4() {
         int a = 9;
@@ -38,6 +45,7 @@ public class ProdutoIntSomaTest {
         int result = instance.produtoIntSomando(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testProdutoIntSomando5() {
         int a = 10;
@@ -47,6 +55,7 @@ public class ProdutoIntSomaTest {
         int result = instance.produtoIntSomando(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testProdutoIntSomando6() {
         int a = 2;
