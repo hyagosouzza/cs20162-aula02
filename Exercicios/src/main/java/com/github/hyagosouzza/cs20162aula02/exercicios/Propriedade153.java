@@ -9,8 +9,8 @@ package com.github.hyagosouzza.cs20162aula02.exercicios;
  * Classe para utilizar a propriedade153.
  * @version 1.0
  */
-public class Propriedade153
-{
+public class Propriedade153 {
+
     /**
      * Metodo para verificar se o número recebido tem a "propriedade 153".
      * @param n final int
