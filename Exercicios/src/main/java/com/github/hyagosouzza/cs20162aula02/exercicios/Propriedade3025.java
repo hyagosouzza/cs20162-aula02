@@ -9,8 +9,8 @@ package com.github.hyagosouzza.cs20162aula02.exercicios;
  * Classe para utilizar o método a propriedade3025.
  * @version 1.0
  */
-public class Propriedade3025 {
-    
+public class Propriedade3025
+{
     /**
      * Metodo para verificar se o número recebido tem a "propriedade 3025".
      * @param n final int
