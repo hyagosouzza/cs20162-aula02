@@ -2,17 +2,21 @@
  * Copyright (c) 2016. Fábrica de Software - Instituto de Informática (UFG)
  * Creative Commons Attribution 4.0 International License.
  */
+
 package com.github.hyagosouzza.cs20162aula02.exercicios;
+
 import java.util.ArrayList;
+
 import java.util.List;
-/**Classe para utilizar o método crivoEratostenes.
- * @author Hyago Vieira de Souza
+
+/**
+ * Classe para utilizar o método crivoEratostenes.
  * @version 1.0
  */
 public class CrivoEratostenes {
-    /**Metodo para achar os números primos até um certo valor limite.
-     * @author Hyago Vieira de Souza
-     * @since Release 01 da aplicação
+    
+    /**
+     * Metodo para achar os números primos até um certo valor limite.
      * @param valorLimite final int
      * @return List
      */
