@@ -2,15 +2,17 @@
  * Copyright (c) 2016. Fábrica de Software - Instituto de Informática (UFG)
  * Creative Commons Attribution 4.0 International License.
  */
+
 package com.github.hyagosouzza.cs20162aula02.exercicios;
-/**Classe para utilizar o método produtoIntSomando.
- * @author Hyago Vieira de Souza
+
+/**
+ * Classe para utilizar o método produtoIntSomando.
  * @version 1.0
  */
 public class ProdutoIntSoma {
-    /**Metodo para buscar o resultado de "x" elevado a "y" (somando).
-     * @author Hyago Vieira de Souza
-     * @since Release 01 da aplicação
+    
+    /**
+     * Metodo para buscar o resultado de "x" elevado a "y" (somando).
      * @param a final int
      * @param b final int
      * @return int - s - resultado do produto somando
