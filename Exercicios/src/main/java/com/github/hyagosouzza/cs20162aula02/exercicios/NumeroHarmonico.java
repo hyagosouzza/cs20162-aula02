@@ -10,7 +10,7 @@ package com.github.hyagosouzza.cs20162aula02.exercicios;
  * @version 1.0
  */
 public class NumeroHarmonico
-{  
+{
     /**
      * Metodo para achar o valor do néssimo número harmônico.
      * @param n final int
