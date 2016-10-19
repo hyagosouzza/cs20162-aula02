@@ -9,8 +9,8 @@ package com.github.hyagosouzza.cs20162aula02.exercicios;
  * Classe para utilizar o método potenciaSoma.
  * @version 1.0
  */
-public class PotenciaSoma
-{
+public class PotenciaSoma {
+
     /**
      * Metodo para buscar o resultado de "x" elevado a "y" (somando).
      * @param x final int
