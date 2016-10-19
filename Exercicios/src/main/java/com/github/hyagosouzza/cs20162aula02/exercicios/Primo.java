@@ -9,8 +9,8 @@ package com.github.hyagosouzza.cs20162aula02.exercicios;
  * Classe para utilizar o método primo.
  * @version 1.0
  */
-public class Primo {
-     
+public class Primo
+{
      /**
      * Metodo para verificar se o número é primo.
      * @param n final int
