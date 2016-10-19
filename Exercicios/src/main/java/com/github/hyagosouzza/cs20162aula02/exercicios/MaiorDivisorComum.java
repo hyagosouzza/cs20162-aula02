@@ -9,8 +9,8 @@ package com.github.hyagosouzza.cs20162aula02.exercicios;
  * Classe para utilizar o método maiorDivisorComum.
  * @version 1.0
  */
-public class MaiorDivisorComum {
-    
+public class MaiorDivisorComum
+{    
     /**
      * Metodo para achar o maior divisor comum entre estes dois números.
      * @param a final int
