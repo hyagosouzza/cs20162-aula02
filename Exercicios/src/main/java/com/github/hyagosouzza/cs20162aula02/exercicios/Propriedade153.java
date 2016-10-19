@@ -2,15 +2,17 @@
  * Copyright (c) 2016. Fábrica de Software - Instituto de Informática (UFG)
  * Creative Commons Attribution 4.0 International License.
  */
+
 package com.github.hyagosouzza.cs20162aula02.exercicios;
-/**Classe para utilizar a propriedade153.
- * @author Hyago Vieira de Souza
+
+/**
+ * Classe para utilizar a propriedade153.
  * @version 1.0
  */
 public class Propriedade153 {
-    /**Metodo para verificar se o número recebido tem a "propriedade 153".
-     * @author Hyago Vieira de Souza
-     * @since Release 01 da aplicação
+    
+    /**
+     * Metodo para verificar se o número recebido tem a "propriedade 153".
      * @param n final int
      * @return boolean
      */
