@@ -2,15 +2,17 @@
  * Copyright (c) 2016. Fábrica de Software - Instituto de Informática (UFG)
  * Creative Commons Attribution 4.0 International License.
  */
+
 package com.github.hyagosouzza.cs20162aula02.exercicios;
-/**Classe para utilizar o método numHarmonico.
- * @author Hyago Vieira de Souza
+
+/**
+ * Classe para utilizar o método numHarmonico.
  * @version 1.0
  */
 public class NumeroHarmonico {
-    /**Metodo para achar o valor do néssimo número harmônico.
-     * @author Hyago Vieira de Souza
-     * @since Release 01 da aplicação
+    
+    /**
+     * Metodo para achar o valor do néssimo número harmônico.
      * @param n final int
      * @return float - s - valor do número harmônico em certa posição
      */
