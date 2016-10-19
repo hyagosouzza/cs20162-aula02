@@ -13,8 +13,8 @@ import java.util.List;
  * Classe para utilizar o método crivoEratostenes.
  * @version 1.0
  */
-public class CrivoEratostenes
-{
+public class CrivoEratostenes {
+
     /**
      * Metodo para achar os números primos até um certo valor limite.
      * @param valorLimite final int
