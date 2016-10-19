@@ -9,8 +9,8 @@ package com.github.hyagosouzza.cs20162aula02.exercicios;
  * Classe para utilizar o método produtoIntSomando.
  * @version 1.0
  */
-public class ProdutoIntSoma {
-    
+public class ProdutoIntSoma
+{
     /**
      * Metodo para buscar o resultado de "x" elevado a "y" (somando).
      * @param a final int
