@@ -9,8 +9,8 @@ package com.github.hyagosouzza.cs20162aula02.exercicios;
  * Classe para utilizar o método soma.
  * @version 1.0
  */
-public class SomaNaturais
-{
+public class SomaNaturais {
+
     /**
      * Metodo somar os "n" primeiros números naturais.
      * @param n final int
