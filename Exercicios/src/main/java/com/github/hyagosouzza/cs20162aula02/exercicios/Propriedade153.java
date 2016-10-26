@@ -17,13 +17,13 @@ public class Propriedade153 {
      * @return boolean
      */
     public final boolean propriedade(final int n) {
-        final int tres = 3;
-        final int dez = 10;
-        final int cem = 100;
-        int i = n / cem;
-        int j = (n - (cem * i)) / dez;
-        int k = n % dez;
-        return ((Math.pow(i, tres)) + (Math.pow(j, tres))
-                + (Math.pow(k, tres))) == n;
+        final int metadeDeSeis = 3;
+        final int dobroDeCinco = 10;
+        final int dobroDeCinquenta = 100;
+        int i = n / dobroDeCinquenta;
+        int j = (n - (dobroDeCinquenta * i)) / dobroDeCinco;
+        int k = n % dobroDeCinco;
+        return ((Math.pow(i, metadeDeSeis)) + (Math.pow(j, metadeDeSeis))
+                + (Math.pow(k, metadeDeSeis))) == n;
     }
 }
