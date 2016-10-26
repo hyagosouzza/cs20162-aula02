@@ -22,7 +22,9 @@ public class CrivoEratostenes {
      */
     public final List crivoEratostenes(final int valorLimite) {
         final int tamanho = 1000000;
-        int cont1, cont2, raiz;
+        int cont1;
+        int cont2;
+        int raiz;
         int[]vetor = new int[tamanho];
         List<Integer> listaPrimos = new ArrayList();
         raiz = (int) Math.sqrt(valorLimite);
