@@ -17,7 +17,8 @@ public class SomaNaturais {
      * @return int - s - soma dos naturais
      */
     public final int soma(final int n) {
-        int s = 1, i = 2;
+        int s = 1;
+        int i = 2;
         while (n >= i) {
             s = s + i;
             i = i + 1;
