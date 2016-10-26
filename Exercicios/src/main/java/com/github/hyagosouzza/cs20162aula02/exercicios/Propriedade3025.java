@@ -17,10 +17,10 @@ public class Propriedade3025 {
      * @return boolean
      */
     public final boolean propriedade(final int n) {
-        final int cem = 100;
-        final int dois = 2;
-        int i = n / cem;
-        int j = n % cem;
-        return (Math.pow((i + j), dois)) == n;
+        final int dobroDeCinquenta = 100;
+        final int dobroDeUm = 2;
+        int i = n / dobroDeCinquenta;
+        int j = n % dobroDeCinquenta;
+        return (Math.pow((i + j), dobroDeUm)) == n;
     }
 }
